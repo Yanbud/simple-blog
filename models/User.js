@@ -27,11 +27,7 @@ User.init({
             len: [8],
         },
     },
-    img_url: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        defaultValue: 1,
-    }
+
 }, {
     hooks: {
         beforeCreate: async(newUserData) => {
