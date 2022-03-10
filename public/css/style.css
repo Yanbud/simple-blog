@@ -138,6 +138,7 @@ h1 {
 .com-list span {
     color: #666;
     font-size: 0.8em;
+    margin-left: -0.86em;
 }
 
 .com-list div {

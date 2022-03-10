@@ -90,12 +90,9 @@ router.get('/dashboard/edit/:id', withAuth, async(req, res) => {
         });
 
         const post = postData.get({ plain: true });
-        const userData = await User.findByPk(req.session.user_id);
-        const user = userData.get({ plain: true });
         res.render('post-edit', {
             ...post,
-            logged_in: req.session.logged_in,
-            username: user.username
+            logged_in: req.session.logged_in
         });
     } catch (err) {
         res.status(500).json(err);
@@ -112,7 +109,6 @@ router.get('/post/:id', withAuth, async(req, res) => {
             include: [{ model: Comment }, { model: User }],
         });
         const com = comData.get({ plain: true });
-        console.log(com)
 
         const userData = await User.findByPk(req.session.user_id);
         const user = userData.get({ plain: true })
