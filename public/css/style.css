@@ -67,6 +67,7 @@ a:hover {
     font-weight: 100;
     color: #666;
     vertical-align: top;
+    margin-top: 0.7em
 }
 
 .user em {
@@ -96,7 +97,7 @@ a:hover {
 
 .post div p,
 .post div h2 {
-    padding: 1em 1em 0.5em;
+    padding: 0.6em 1em 0.4em;
 }
 
 .post div p {
@@ -164,7 +165,7 @@ h3 {
 }
 
 .head-welcome h1 {
-    margin-bottom: -0.8em;
+    margin-bottom: -0.1em;
     margin-top: 0.2em;
 }
 
