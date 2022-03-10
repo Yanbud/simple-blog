@@ -30,7 +30,7 @@ User.init({
     img_url: {
         type: DataTypes.INTEGER,
         allowNull: false,
-        defaultValue: img_num(),
+        defaultValue: 1,
     }
 }, {
     hooks: {
