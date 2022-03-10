@@ -1,16 +1,13 @@
 [{
         "username": "Sal",
-        "password": "password12345",
-        "img_url": 1
+        "password": "password12345"
     },
     {
         "username": "Lernantino",
-        "password": "password12345",
-        "img_url": 2
+        "password": "password12345"
     },
     {
         "username": "Amiko",
-        "password": "password12345",
-        "img_url": 3
+        "password": "password12345"
     }
 ]
