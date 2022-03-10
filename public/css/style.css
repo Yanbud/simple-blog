@@ -1,0 +1,157 @@
+.no-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #1b89bc;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.no-button:hover {
+    color: #065b83;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 100%
+}
+
+.header a {
+    font-weight: 500;
+    font-size: 150%;
+}
+
+.title {
+    margin: 0.5em 0 0 0.5em;
+    font-size: 120%;
+}
+
+.user {
+    font-weight: 100;
+    color: #666;
+    vertical-align: top;
+}
+
+.user em {
+    font-style: normal;
+    margin-left: 1em;
+    line-height: 5px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 100%;
+}
+
+.avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.post {
+    background-color: #fff;
+}
+
+.post div {
+    padding: 0;
+}
+
+.post div p,
+.post div h2 {
+    padding: 1em 1em 0.5em;
+}
+
+.post div p {
+    padding: 0 1.5em 0.5em;
+}
+
+.post-title {
+    background-color: #e2e2e2;
+    padding: 0.5em;
+}
+
+.post-title h4 {
+    font-weight: 500;
+    font-size: 120%;
+    padding: 4px;
+}
+
+.post-title div:last-child {
+    line-height: 2;
+    text-align: right;
+    color: #999
+}
+
+.nav {
+    background-color: #CC5A5C;
+}
+
+.nav a,
+.nav button {
+    color: #fff;
+    height: 28px;
+    display: inline-block;
+    margin-left: 1em;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Hubballi', cursive;
+    margin-bottom: 0.5em;
+}
+
+.com-list {
+    background-color: #fff;
+}
+
+.block {
+    background-color: #eee;
+    padding: 2em;
+}
+
+.block.com-form {
+    padding: 0 2em 1.5em;
+}
+
+.com-list span {
+    color: #666;
+    font-size: 0.8em;
+}
+
+.com-list div {
+    padding: 1em 2em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.com-section {
+    border: 1px solid #ddd
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.blog-bg {
+    margin-bottom: 3em;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.head-welcome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-welcome span {
+    display: inline-block;
+    margin-top: 1em;
+    color: #666
+}

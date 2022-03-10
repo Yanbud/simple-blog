@@ -1,0 +1,20 @@
+{{>head-dashboard}}
+<div class="row mt-4">
+  {{#if posts.length}}
+  <div class="col-md-12 post-list">
+
+    {{#each posts as |post|}}
+    <div class="row mb-2 post-title">
+      <div class="col-md-8">
+        <h4><a href="/dashboard/edit/{{post.id}}">{{post.title}}</a></h4>
+      </div>
+      <div class="col-md-4">
+       <span>{{format_date post.date_created}}</span> 
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+<a class="btn btn-sm" href="/dashboard/new">+ New Post</a>
+

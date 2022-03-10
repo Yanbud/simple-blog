@@ -1,0 +1,27 @@
+<div class="row head-welcome">
+    <h1 class="head">Dashboard</h1> <span class="user"><img class="avatar" src="../../images/{{user.img_url}}.png" /><em>Hi, {{username}}</em></span>
+</div>
+<div class="row mt-4 block">
+ 
+
+ <div class="col-md-12">
+    <h3>Edit Post:</h3>
+
+    <form class="form edit-post-form">     
+        <input type="hidden" id="post-id" name="post-id" value="{{id}}" />     
+      <div class="form-group">
+        <label for="post-title">Title:</label>
+        <input class="form-input" type="text" id="post-title" name="post-title" value="{{title}}" />
+      </div> 
+      <div class="form-group">
+        <label for="post-content">description:</label>
+        <textarea class="form-input" id="post-content" name="post-content">{{content}}</textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Update Post</button>
+        <button class="btn btn-sm" data-id="{{id}}">DELETE</button>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="/js/edit.js"></script>
