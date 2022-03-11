@@ -1,8 +1,9 @@
 # Small Topic
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 ## Description 
-This project is a CMS-style site where developers can publish their blog posts and comment on other developer's posts as well. 
-This project followed the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+This project is a CMS-style site where developers can publish their blog posts and comment on other developer's posts as well.
+
+It followed the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 ## Usage
 visit the website: <a href="https://small-topic.herokuapp.com/">small-topic.herokuapp.com</a>
 ## Screenshot
