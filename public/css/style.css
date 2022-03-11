@@ -50,7 +50,7 @@ body {
 .header a {
     font-weight: 500;
     font-size: 150%;
-    margin-left: 0.5em;
+    margin-left: 0.4em;
 }
 
 a,
@@ -67,16 +67,13 @@ a:hover {
     font-weight: 100;
     color: #666;
     vertical-align: top;
-    margin-top: 0.7em
+    margin-top: 0.5em
 }
 
 .user em {
     font-style: normal;
     margin-left: 1em;
-    line-height: 5px;
-    height: 30px;
     display: inline-block;
-    vertical-align: middle;
     font-size: 100%;
 }
 
